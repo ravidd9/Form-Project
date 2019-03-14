@@ -5,14 +5,19 @@
     <link rel= "stylesheet" type="text/css" media="screen" href="form.css">
 </head>
 <body>
-    <div> Name</div>
-    <input type="text"><br>
-    <div> Desired Salary</div>
-    <input type="text"><br>
-    <div> Birthday</div>
-    <input type="text"><br>
-    <div> Phone</div>
-    <input type="text"><br>
+    <div id="form">
+        <div> Name</div>
+        <input id="name" type="text"><div id="nameM" class="message"></div>
+        <div> Desired Salary</div>
+        <input id="salary" type="number"><div id="salaryM" class="message"></div>
+        <div> Birthday</div>
+        <input id="birthday" type="date"><div id="birthdayM" class="message"></div>
+        <div> Phone</div>
+        <input id="phone" type="number"><div id="phoneM" class="message"></div>
+        <button id="submit">Submit</button>
+    </div>
+    <div id="welcome"></div>
+
     <script src="form.js"></script>
 </body>
 </html>

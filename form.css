@@ -1,0 +1,32 @@
+div{
+    font-family: Tahoma;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+button{
+    display: block;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.message{
+    font-family: Tahoma;
+    font-size: 20px;
+    color: red;
+    display: inline-block;
+    margin-left: 15px;
+}
+#form{
+   background-color: antiquewhite;
+   border: 2px solid black;
+}
+#welcome{
+    font-family: Tahoma;
+    font-size: 40px;
+}
